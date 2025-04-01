@@ -1,11 +1,9 @@
-/* global require */
 import { getOwnConfig } from '@embroider/macros';
 
-let configModulePath = `${getOwnConfig().modulePrefix}/config/environment`;
-
-export default loadConfigFromMeta(configModulePath);
+export default loadConfigFromMeta(getOwnConfig().modulePrefix);
 
 function loadConfigFromMeta(prefix) {
+  console.log(prefix);
   var _a;
 
   let metaName = `${prefix}/config/environment`;

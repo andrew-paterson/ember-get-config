@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@embroider/config-meta-loader':
-        specifier: v1.0.0-alpha.2
-        version: 1.0.0-alpha.2
       '@embroider/macros':
         specifier: ^0.50.0 || ^1.0.0
         version: 1.16.12
@@ -742,10 +739,6 @@ packages:
   '@ember/test-waiters@3.1.0':
     resolution: {integrity: sha512-bb9h95ktG2wKY9+ja1sdsFBdOms2lB19VWs8wmNpzgHv1NCetonBoV5jHBV4DHt0uS1tg9z66cZqhUVlYs96KQ==}
     engines: {node: 10.* || 12.* || >= 14.*}
-
-  '@embroider/config-meta-loader@1.0.0-alpha.2':
-    resolution: {integrity: sha512-irZMIHJNRvbQTVpVzlPkDnKsPe5FW5GefkBE0cegfgCoFG8P/K45LitG0FaAjO6IU+AvHmtlvo4NV/XoSW6PFw==}
-    engines: {node: 12.* || 14.* || >= 16}
 
   '@embroider/macros@1.16.12':
     resolution: {integrity: sha512-cgaEbzCvUOZF7Xs9FNMGknSCTgE01A1cXkkEhSTuaPbf6F/2z9pZAdQpVrBbTvo1Sg8CwMsm+piahjy43KoGuA==}
@@ -7068,8 +7061,6 @@ snapshots:
       semver: 7.7.1
     transitivePeerDependencies:
       - supports-color
-
-  '@embroider/config-meta-loader@1.0.0-alpha.2': {}
 
   '@embroider/macros@1.16.12':
     dependencies:
