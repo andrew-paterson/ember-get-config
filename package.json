@@ -27,7 +27,6 @@
     "ember-compatibility-test": "ember try:each"
   },
   "dependencies": {
-    "@embroider/config-meta-loader": "v1.0.0-alpha.2",
     "@embroider/macros": "^0.50.0 || ^1.0.0",
     "ember-cli-babel": "^7.26.6"
   },
